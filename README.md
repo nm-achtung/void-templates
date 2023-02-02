@@ -5,7 +5,7 @@ A repository for me to mess around with void packaging and templates.
 Currently working on getting different Window Maker dock apps ported to templates.
 
 **What I've ported:**
-*- libdockapp*
+- *libdockapp*
 
 **What I want to port:**
 - AlsaMixer.app
