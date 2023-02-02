@@ -10,7 +10,7 @@ maintainer="nm nmplaceholder@protonmail.com"
 license="3-clause-BSD"
 homepage="https://www.dockapps.net/libdockapp"
 distfiles="https://www.dockapps.net/libdockapp-$(version).tar.gz"
-checksum="7b029c2b2542d1974085690427354501"
+checksum="c1c26780d71851aad2539fc215ff8badd2b13326"
 
 pre_configure() {
 	autoreconf -fi
