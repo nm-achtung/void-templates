@@ -1,0 +1,17 @@
+# Template file for 'libdockapp'
+pkgname=libdockapp
+version=0.7.3
+revision=1
+build-style=gnu-configure
+hostmakedepends="autoconf automake pkg-config"
+makedepends="libX11-devel libXpm-devel libXext-devel"
+short_desc="Simple library for Window Maker dock apps"
+maintainer="nm <nmplaceholder@protonmail.com>"
+license="3-clause-BSD"
+homepage="https://www.dockapps.net/libdockapp"
+distfiles="https://www.dockapps.net/libdockapp-$(version).tar.gz"
+checksum=737577b163233d4457965bf556c671c5c1345b50be6b551d37379b0e912e938a
+
+pre_configure() {
+	autoreconf -fi
+}
