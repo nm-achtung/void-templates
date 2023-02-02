@@ -8,10 +8,10 @@ Currently working on getting different Window Maker dock apps ported to template
 *- libdockapp*
 
 **What I want to port:**
-*- AlsaMixer.app
-*- asmon
-*- cputnik
-*- wmcpufreq
-*- wmsystemtray
+- AlsaMixer.app
+- asmon
+- cputnik
+- wmcpufreq
+- wmsystemtray
 
 I haven't created any of these dock apps, I am only simply porting them to void templates. 
